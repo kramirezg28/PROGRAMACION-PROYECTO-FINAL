@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PuntoVenta</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
+    <!-- Proveedor MySQL para EF Core 10 (fork mantenido de Pomelo, misma API: UseMySql) -->
+    <PackageReference Include="Microting.EntityFrameworkCore.MySql" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>

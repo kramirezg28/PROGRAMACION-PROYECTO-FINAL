@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+appsettings.Development.json
+wwwroot/images/productos/*
+!wwwroot/images/productos/.gitkeep
